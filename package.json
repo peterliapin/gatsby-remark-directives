@@ -1,0 +1,27 @@
+{
+  "name": "@wavepoint/gatsby-remark-directives",
+  "version": "1.0.0",
+  "description": "Adds commonmark directives support to markdown files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WavePoint Co. Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "remark-directive": "^2.0.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "plugin",
+    "remark",
+    "directive",
+    "commonmark",
+    "markdown",
+    "gatsby-transformer-remark",
+    "gatsby-transformer-plugin"
+  ],
+  "homepage": "https://github.com/peterliapin/gatsby-remark-directives#readme",
+  "url": "https://github.com/peterliapin/gatsby-remark-directives/issues"
+}
