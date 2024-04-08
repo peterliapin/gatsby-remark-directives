@@ -9,7 +9,10 @@
   "author": "WavePoint Co. Ltd.",
   "license": "MIT",
   "dependencies": {
-    "remark-directive": "^2.0.1"
+    "esm": "^3.2.25",
+    "hastscript": "^7.2.0",
+    "remark-directive": "^2.0.1",
+    "unist-util-visit": "^4.1.2"
   },
   "keywords": [
     "gatsby",
@@ -23,5 +26,8 @@
     "gatsby-transformer-plugin"
   ],
   "homepage": "https://github.com/peterliapin/gatsby-remark-directives#readme",
-  "url": "https://github.com/peterliapin/gatsby-remark-directives/issues"
+  "url": "https://github.com/peterliapin/gatsby-remark-directives/issues",
+  "peerDependencies": {
+    "gatsby-transformer-remark": "^5.25.1"
+  }
 }
